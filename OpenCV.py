@@ -1,15 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
-get_ipython().system('pip install opencv-python')
-
-
-# In[19]:
-
-
+!pip install opencv-python
 import cv2
 from IPython.display import Image, display
 
@@ -51,10 +40,3 @@ display(Image(filename='output_image.jpg'))
 
 # Print the total number of people
 print("Total number of people:", total_people)
-
-
-# In[ ]:
-
-
-
-
